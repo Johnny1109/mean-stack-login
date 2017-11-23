@@ -1,0 +1,405 @@
+
+<div id="over" ng-controller="CoursesController">
+		<div id="out_container">
+<!-- THE LINE AT THE VERY TOP OF THE PAGE -->    
+       
+
+
+<!-- HEADER AREA --> 
+        
+<!-- MAIN CONTENT AREA -->        
+        <div class="main-content" style="margin-top:70px;">
+            <div class="container" >
+                <div class="row1" >
+                    <div class="span12" >
+<!-- BREADCRUMBS -->
+                        
+                        <div  class="row show-grid clear-both">
+<!-- BEGIN LEFT-SIDEBAR -->                        
+                            <div id="left-sidebar" class="span3 sidebar">
+<!-- LEFT-SIDEBAR: SIDEBAR NAVIGATION -->
+ 
+	  
+                                <div class="side-nav sidebar-block" style="width:100%;margin-top:0px;" >
+                                
+									 <ul>
+									
+									 <li><a type="button"  ng-model="content" class="" ng-click="show = 1" >Add/Update Courses</a></li>
+									 <li><a type="button"  ng-model="content" class="" ng-click="show = 2" >Add/Update Groups</a></li>
+									 <li><a type="button"  ng-model="content" class="" ng-click="show = 3" >Assign Courses to Groups</a></li>
+									 <li><a type="button"  ng-model="content" class="" ng-click="show = 4" >Assign Users to Groups</a></li>
+									 <li><a type="button"  ng-model="content" class="" ng-click="show = 5" >View User Details</a></li>
+									
+					</ul>
+   
+                                </div>  
+								                       
+                            </div>
+<!-- END LEFT-SIDEBAR -->
+
+<!-- BEGIN ARTICLE CONTENT AREA -->
+							<div class="span9 main-column two-columns-left" id="movies">
+							
+							
+							
+<!-- Modal -->
+
+	<div class="" id="addcourse" ng-init="show = 1" ng-show="show == 1"   >	
+		<h4 style="color:#99cc33;">Add/Update Course</h4>
+		<div>
+			<div class="flash-message" ng-if="flash">
+				<div class="{{'alert alert-' + flash.type}}" ng-bind="flash.message"></div>
+			</div>
+		
+
+		<table id="myTable" class="table table-bordered table-responsive table-striped" style="height:300px;">  
+        <thead>  
+         <tr bgcolor="#99cc33">
+      
+     
+			  <th>Title</th>
+			  <th class="hidden-xs hidden-sm">Description</th>
+			 <!--  <th class="hidden-xs hidden-sm">URL</th> -->
+			  <th>Status</th>
+			  <th>Launch Type</th>
+			  <th>Button</th>
+			</tr>
+        </thead>  
+        <tbody>  
+			<!--  <tr >
+			 
+			  
+			  <td><input type="text" class="form-control" ng-model="course.title"></td>
+			  <td><input type="text" class="form-control" ng-model="course.description"></td>
+			  <td><input type="text" class="form-control" ng-model="course.url"></td>
+			  <td><input type="text" class="form-control" ng-model="course.status"></td>
+			  <td><input type="text" class="form-control" ng-model="course.launchmode"></td>
+			  <td ><button class="btn btn-primary" ng-click="update(course._id)">Update</button></td>
+			  
+			 
+			</tr> -->
+			
+			<tr class="clickable-row" ng-repeat="course in vm.courses" >
+     
+			  <td contenteditable="true" name="title" ng-model="course.title">{{course.title}}</td>
+			  <td contenteditable="true" class="hidden-xs hidden-sm" name="description" ng-model="course.description">{{course.description}}</td>
+			  <!-- <td contenteditable="true" class="hidden-xs hidden-sm" name="url" ng-model="course.url" style="column-width: 300px;"
+			  >{{course.url}}</td> -->
+			  <td contenteditable="true" name="status" ng-model="course.status">{{course.status}}</td>
+			  <td contenteditable="true" name="launchmode" ng-model="course.launchmode">{{course.launchmode}}</td>
+			  <td ><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Edit</button></td>
+     
+			</tr>
+        </tbody>  
+      </table>  
+	  </div>
+				
+					
+
+</div>
+							 
+	<div id="addGroup" ng-show="show == 2" ng-controller="CoursesController as vm1">	
+	<h4 style="color:#99cc33;">Add/Update Group</h4>
+		<div class="">	
+			<table class="table table-bordered table-responsive table-striped">
+			  <thead bgcolor="#99cc33">
+				<tr>
+				  
+				  <th>Group Name</th>
+				  <th>Status</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="clickable-row"  ng-repeat="group in vm1.groups">
+				 
+				  <td>{{group.groupname}}</td>
+				  <td>{{group.status}}</td>
+				 
+				</tr>
+				
+			  </tbody>
+		</table>
+
+<div class="form-group" style="margin-top:20px;">
+                <button type="button" class="btn btn-default" ng-click="vm.addCourse()">
+                        
+                            ADD
+                </button>
+                <button type="submit" class="btn btn-primary disabled" ng-click="vm.addCourse()">
+                    UPDATE
+                </button>
+            </div>
+</div>
+
+<div class="" id="myModalNorm1">
+    
+         
+            
+            <!-- Modal Body -->
+             <div class="">
+				<div class="flash-message" ng-if="flash">
+					<div class="{{'alert alert-' + flash.type}}" ng-bind="flash.message"></div>
+				</div>
+	<form method="post" style="margin-top:10px;">
+        <div class="form-group">
+            <label for="groupname">Group Name</label>
+            <input type="text" name="groupname" id="groupname" class="form-control" required />
+        </div>
+       
+		
+		<div class="form-group">
+            <label for="status">Status</label>
+            
+			<input type="text" name="status" class="form-control" list="statusList" required>
+				<datalist id="statusList">
+					<option value="Active">
+					<option value="Inactive">
+					<option value="Development">
+				</datalist>
+			</input>
+        </div>
+				
+
+		<div class="form-group" style="margin-top:20px;">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Cancel
+                </button>
+                <button type="submit" class="btn btn-primary" ng-click="vm.addGroup()">
+                    ADD GROUP
+                </button>
+            </div>
+    </form>
+                                
+           
+           
+        </div>
+   
+</div>
+</div>
+
+<div id="assignCoursetoGroup" ng-show="show == 3" ng-controller="CoursesController as vm1">	
+	<h4 style="color:#99cc33;">Assign Course to Group</h4>
+		<div class="">	
+			<table class="table table-bordered table-responsive table-striped">
+			  <thead bgcolor="#99cc33">
+				<tr>
+				  
+				  <th>Groups</th>
+				  <th>Assigned Courses</th>
+				  <th>Unassigned Courses</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				
+				<tr class="clickable-row"  ng-repeat="group in vm1.groups">
+				 
+				  <td>{{group.groupname}}</td>
+				  <td></td>
+				  <td></td>
+				 
+				</tr>
+				
+			  </tbody>
+		</table>
+
+
+</div>
+
+
+</div>
+
+
+
+<div id="assignCoursetoGroup" ng-show="show == 4" ng-controller="CoursesController as vm1">	
+	<h4 style="color:#99cc33;">Assign Users to Group</h4>
+		<div class="">	
+			<table class="table table-bordered table-responsive table-striped">
+			  <thead bgcolor="#99cc33">
+				<tr>
+				  
+				  <th>Groups</th>
+				  <th>Assigned Users</th>
+				  <th>Unassigned Users</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr class="clickable-row"  ng-repeat="group in vm1.groups">
+				 
+				  <td>{{group.groupname}}</td>
+				  <td></td>
+				  <td></td>
+				 
+				</tr>
+				
+				
+			  </tbody>
+		</table>
+
+
+</div>
+
+
+</div>
+
+
+
+<div id="assignCoursetoGroup" ng-show="show == 5" ng-controller="CoursesController as vm1">	
+	<h4 style="color:#99cc33;">View User Details</h4>
+		<div class="">	
+	
+
+  
+   
+			<table class="table table-bordered table-responsive table-striped">
+			  <thead bgcolor="#99cc33">
+				<tr>
+				  
+				  <th>Uer Name</th>
+				  <th>Assigned Group</th>
+				  
+				</tr>
+			  </thead>
+			  <tbody>
+				 <tr class="clickable-row" ng-repeat="user in vm1.users">
+				 
+				  <td>{{user.email}}</td>
+				  <td>{{user.company}}</td>
+
+				 
+				</tr>
+				
+				
+				
+			  </tbody>
+		</table>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+ 
+   </div>              
+
+	
+
+
+   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              
+            
+            </div>
+           
+       
+	
+	</div>
+	</div>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog" style="width:300px;margin:0px auto;">
+  <div class="modal-dialog">
+
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Course Update</h4>
+      </div>
+      <div class="modal-body">
+       <div class="">
+				<div class="flash-message" ng-if="flash">
+					<div class="{{'alert alert-' + flash.type}}" ng-bind="flash.message"></div>
+				</div>
+	<form method="post">
+        <div class="form-group">
+            <label for="title">Course Title</label>
+            <input type="text" name="title" id="title" class="form-control" value="{{vm.courses[0].title}}" required/>
+        </div>
+       
+		<div class="form-group">
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description" class="form-control" value="{{vm.courses[0].description}}" required />
+        </div>
+		
+		<div class="form-group">
+            <label for="lastName">URL</label>
+            <input type="text" name="url" id="url" class="form-control" value="{{vm.courses[0].url}}" required />
+        </div>
+		
+		
+		
+		<div class="form-group">
+            <label for="status">Status</label>
+            
+			<input type="text" name="status" class="form-control" list="statusList" value="{{vm.courses[0].status}}" required>
+				<datalist id="statusList">
+					<option value="Active">
+					<option value="Inactive">
+					<option value="Development">
+					<option value="">
+				</datalist>
+			</input>
+        </div>
+		
+		<div class="form-group">
+            <label for="launchtype">Launch Type</label>
+            
+			<input type="text" name="launchtype" class="form-control" list="launchtypeList" value="{{vm.courses[0].launchmode}}" required>
+				<datalist id="launchtypeList">
+					<option value="External">
+					<option value="Internal">
+					<option value="">
+					
+				</datalist>
+			</input>
+        </div>
+		
+		
+		
+
+		<div class="form-group" style="margin-top:20px;">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Cancel
+                </button>
+                <button type="submit" class="btn btn-primary" ng-click="vm.courseUpdate('58c7c9e06f3f1a2a4c8f9959')">
+                    Update Course
+                </button>
+            </div>
+    </form>
+                                
+           
+           
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div> 
+
+		<script>
+$(document).ready(function(){
+    $('#myTable').dataTable();
+	
+	
+	
+});
+
+
+    
+
+       
+           
+        
+    
+</script>

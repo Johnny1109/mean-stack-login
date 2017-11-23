@@ -1,0 +1,180 @@
+html, body { height:100%; }
+
+object { display:none; }
+
+.cv { 
+	display:block;
+	
+}
+
+.cv:hover  img{
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+
+
+body { margin: 0; }
+video {
+    width: 100%;
+    max-height: 100%;
+   margin:0px auto;
+}
+.wrap{
+	width: 100%;
+	height:100%;
+	
+	
+}
+#player-overlay {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #efefef;   
+text-align:center;	
+    z-index:999;
+}
+
+
+address { font-style:normal; }
+
+.vcard { line-height:22px; }
+
+.vcard .title { text-transform:uppercase; }
+
+.last { 
+	padding-bottom:1em;
+	
+}
+
+#returnLink{
+width:100%;
+	float:right;
+	left:0;
+height:30px;
+}
+.hidden { 
+
+	height:0;
+	visibility:hidden;
+	
+}
+
+
+
+@media (min-width: 1024px)  and (max-width:1920px){  
+	
+	video {
+		width:100%;
+		max-height: 100%;
+		margin-left:35px;
+		
+}
+#player-overlay {
+    position: absolute;
+     top: 100px;
+    left: 0;
+    bottom: 5%;
+    width: 100%;
+    right: 0;
+    background-color: #efefef;        
+    z-index:999;
+}
+#returnLink{
+float:right;
+right:0;
+margin-right :-4%;
+}
+.ctitle{
+	
+	margin-left:40px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+	body { 
+		font-size:85%;
+		width:95%;
+		height:auto;
+	}
+	video {
+		width:100%;
+		max-height: 100%;
+		margin-left:30px;
+		
+}
+#player-overlay {
+    position: absolute;
+    top: 100px;
+    left: 0;
+
+        width: 100%;
+
+    right: 0;
+    background-color: #efefef;        
+    z-index:999;
+}
+#returnLink{
+float:right;
+left:0;
+margin-right :-4%;
+}
+
+}
+
+@media (max-width: 767px) {
+	body { 
+		font-size:65%;
+		width:100%;
+	}
+	video {
+    width:100%;
+    max-height: 100%;
+   
+}
+
+#player-overlay {
+    position: absolute;
+    top: 105px;
+    left: 0;
+       width: 100%;
+
+    bottom: 10%;
+    right: 0;
+    background-color: #efefef;        
+    z-index:999;
+}
+#returnLink{
+float:right;
+margin-right :10px;
+
+}
+@media (max-width: 479px) {
+	body { 
+		font-size:65%;
+		width:100%;
+	}
+	.wrap{
+		margin:5px;
+		width:96%;
+	}
+	video {
+    width: 100%;
+    max-height: 100%;
+    
+}
+#player-overlay {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 100%;
+    bottom: 10%;
+    right: 0;
+    background-color: #efefef;        
+    z-index:999;
+}
+#returnLink{
+float:right;
+margin-right :10px;
+}
+}

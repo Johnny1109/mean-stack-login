@@ -1,0 +1,115 @@
+
+<div id="over" >
+		<div id="out_container">
+<!-- THE LINE AT THE VERY TOP OF THE PAGE -->    
+       
+	      
+<!-- Modal -->
+
+
+<!-- HEADER AREA --> 
+        
+<!-- MAIN CONTENT AREA -->        
+        <div class="main-content" style="margin-top:70px;">
+            <div class="container" >
+                <div class="row1" >
+                    <div class="span12" >
+<!-- BREADCRUMBS -->
+                        
+                        <div  class="row show-grid clear-both">
+<!-- BEGIN LEFT-SIDEBAR -->                        
+                            <div id="left-sidebar" class="span3 sidebar">
+<!-- LEFT-SIDEBAR: SIDEBAR NAVIGATION -->
+		<div class="side-nav sidebar-block">
+			<h4 style="color:#99cc33;">E-LEARNING</h4>
+									 
+					   
+			<div class="input-append" style="margin-top:20px;">
+				<input type="text" placeholder="Search" name="search" id="search" />
+				<button class="btn btn-primary" type="submit" onclick="ajaxSearch();"><span class="icon-search"></span></button>
+			</div>
+			<ul id="finalResult">
+
+
+			</ul>
+
+		</div>
+	  
+		<div class="side-nav sidebar-block" style="width:100%;margin-top:0px;">
+				
+			<h4 style="color:#99cc33;">COURSE FILTER</h4>
+
+			<div class="text-divider" style="margin-top:20px;"></div>
+
+			<select id="mySelect" onchange="myFunction()" class="tt-query" >  
+					<option value="" selected="selected"><i>Select Category</i></option>
+					<option value="Product or Solution" >Product or Solution</option>
+					<option value="Process Suites">Process Suites</option>
+					<option value="Course Type">Course Type</option>
+			</select>
+			
+		
+			<div id="frame" class="checkbox"></div>	
+
+		</div>  
+								                       
+                            </div>
+<!-- END LEFT-SIDEBAR -->
+
+<!-- BEGIN ARTICLE CONTENT AREA -->
+							<div class="span9 main-column two-columns-left" id="movies">
+							
+							
+
+							
+							<h4 style="color:#99cc33;">E-LEARNING COURSES</h4>
+							
+							 <ul id="thumbs" class="thumbnails">
+									
+				
+				
+				<div ng-repeat="course in vm.courses" class="span4 thumbnail">							                        
+                					 
+                 <a class="launch" ng-href="#/course/{{ course._id }}">
+				 <img alt="" src="images/ericsson/{{course.icon}}">
+				   </a>  
+                 <div class="hline" style="margin-top:-5px;">
+                    <img alt="" src="images/ericsson/hline1.png" width= 100% height=3px >
+</div>
+                  <div class="caption">
+                    <h4>{{course.title}}</h4>
+                    <p>{{course.product}}</p>
+                    
+                      <div class="post-item-panel">
+                          <ul>                                        
+                                <li><div style="padding-top: 5px;">{{course.duration}}</div></li>                                         
+                            <li class="comments" style="float:right;margin-right:0px;"><a ng-href="#/course/{{ course._id }}"><img alt="" src="images/ericsson/more.png"></a></li>
+                          </ul>
+                        </div>
+                       
+                  </div>                 
+          
+				</div>		
+				
+				
+			</ul>
+									
+</div>
+ 
+   </div>                             
+<!-- END ARTICLE CONTENT AREA -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              
+<!-- MAIN CONTENT AREA: REDESIGN CUSTOM - CLIENTS LOGO BAR -->                
+            
+            </div>
+<!-- MAIN CONTENT AREA: REDESIGN CUSTOM - RECENT TWEETS BAR -->              
+           
+<!-- FOOTER STARTS HERE -->
+       
+	<!-- END FOOTER -->
+	</div>

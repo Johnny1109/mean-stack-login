@@ -1,0 +1,569 @@
+/* General styles for all menus 
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0.5em
+}
+::-webkit-scrollbar-button {
+    background: #fff;
+	height:10px;
+}
+::-webkit-scrollbar-track-piece {
+    background: #f8f8f8;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-arrow-color {
+ background: #000;
+}
+::-webkit-scrollbar-button:vertical:increment {
+    background: url(http://www.trainingtelecoms.com/GLW/L1C/images/down_arr.png) center no-repeat ;
+	
+}
+::-webkit-scrollbar-button:vertical:decrement {
+       background: url(http://www.trainingtelecoms.com/GLW/L1C/images/inc_arr.png) center no-repeat;
+	 
+}*/
+body{
+overflow-x: hidden;
+
+}
+button {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.buttons {
+	margin-bottom: 0px;
+	margin-top: 10px;
+	position:relative;
+}
+.buttons button {
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-left: 0px;
+	display: block;
+	width: 49px;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+.buttons button:hover, .buttons button.active {
+}
+.buttons button:focus {
+	outline: none;
+}
+.cbp-spmenu {
+	float:right;
+	
+	position: absolute;
+	width:320px;
+	margin-top:0px;
+	z-index:1
+}
+.cbp-spmenu_1 {
+	
+	position: absolute;
+	width:700px;
+	margin:0 auto;
+	z-index:1
+}
+.cbp-spmenu .modTitle {
+width:100%;
+height:49px;
+background: #fff;
+}
+.cbp-spmenu .modTitle1 {
+width:100%;
+height:49px;
+background: #fff;
+    margin-top: 0;
+}
+.cbp-spmenu .modTitle2 {
+width:100%;
+height:49px;
+background: #fff;
+}
+.cbp-spmenu_1 .modTitle1 {
+width:100%;
+height:29px;
+margin-top: 0px;
+position: relative;
+}
+.cbp-spmenu .modTitle .divh4, .cbp-spmenu .modTitle1 .divh4, .cbp-spmenu .modTitle2 .divh4 {
+	float:left;
+	width:200px;
+	color: #89ba17;
+	font-family:Arial;
+	font-size: 14px;
+	font-weight:bold;
+	vertical-align:middle;
+	margin: 20px auto;	
+	padding-left:20px;
+}
+ .cbp-spmenu_1 .modTitle1 .divh4 {
+	float:left;
+	width:540px;
+	color: #89ba17;
+	font-family:Arial;
+	font-size: 14px;
+	font-weight:bold;
+	vertical-align:middle;
+	margin: 0px auto;	
+	padding-left:20px;
+}
+
+.cbp-spmenu .modTitle .pct, .cbp-spmenu .modTitle1 .pct, .cbp-spmenu .modTitle2 .pct{
+	float:right;
+	width:20px;
+	color: #89ba17;
+	margin:15px auto;	
+	margin-right:20px;
+	font-weight: bold;
+	font-size: 13px;
+}	
+ 
+
+.cbp-spmenu .modTitle1 .pct, .cbp-spmenu_1 .modTitle1 .pct{
+
+background:url('http://www.trainingtelecoms.com/GLW/L1C/images/close.jpg'); background-repeat: no-repeat; width:70px; height:30px;
+cursor:pointer;
+}
+.cbp-spmenu .modTitle1 .pct:hover, .cbp-spmenu_1 .modTitle1 .pct:hover{
+
+background:url('http://www.trainingtelecoms.com/GLW/L1C/images/close1.jpg'); background-repeat: no-repeat; width:70px; height:30px;
+}
+}
+.cbp-spmenu h4 {
+	color: #000;
+	font-size: 12px;
+	padding: 6px;	
+	margin: 0;
+	padding-left:30px;
+	padding-right:20px;
+	background: #fff;
+}
+
+nav .cbp-spmenu {
+	background: #ebf0e0;
+	position: absolute;	
+	margin-top:-50px;
+	z-index:1
+}
+nav .cbp-spmenu .modTitle {
+	width:100%;
+	height:51px;
+	background: #89ba17;
+}
+.cbp-spmenu .modTitle1 {
+	width:100%;
+	height:51px;
+	color:#89ba17;
+	background: #f2f2f2;
+}
+nav .cbp-spmenu .modTitle2 {
+	width:100%;
+	height:51px;
+	background: #7b0864;
+}
+nav .cbp-spmenu .modTitle .divh4, nav .cbp-spmenu .modTitle1 .divh4, nav .cbp-spmenu .modTitle2 .divh4 {
+	float:left;
+	width:200px;
+	color: #89ba17;
+	font-size: 13px;
+	vertical-align:middle;
+	margin: 20px auto;	
+	padding-left:30px;
+}
+
+
+nav .cbp-spmenu .modTitle .pct, nav .cbp-spmenu .modTitle1 .pct, nav .cbp-spmenu .modTitle2 .pct{
+	float:right;
+	width:20px;
+	color: #89ba17;
+	margin:20px auto;	
+	margin-right:15px;
+	font-weight: bold;
+	font-size: 13px;
+	
+}
+
+nav .drawer-menu h4 {
+	color: #000;
+	font-size: 12px;
+	padding: 6px;	
+	margin: 0;
+	padding-left:30px;
+	padding-right:20px;
+	background: #d7e5b8;
+}
+#cbp-spmenu-s2 h4 , #cbp-spmenu-pop2 h4{
+	color: #000;
+	font-size: 12px;
+	padding: 6px;	
+	margin: 0;
+	padding-left:30px;
+	padding-right:20px;
+	background: #b2cdcb ;
+}
+ #cbp-spmenu-s3 h4, #cbp-spmenu-pop3 h4 {
+	color: #000;
+	font-size: 12px;
+	padding: 6px;	
+	margin: 0;
+	padding-left:30px;
+	padding-right:20px;
+	background: #dec9da;
+}
+ #cbp-spmenu-s3 .modHeading , #cbp-spmenu-pop3 .modHeading{
+	color: #fff;
+	font-size: 12px;
+	padding: 6px;	
+	margin: 0;
+	padding-left:30px;
+	padding-right:20px;
+	background: #7b0864;
+}
+.cbp-spmenu .modList {
+	display: block;
+	color: #000;
+	font-size: 12px;
+	font-weight: 300;
+	
+}
+
+.cbp-spmenu .menuContent {
+	
+	background:#f2f2f2;
+	width: 320px;
+	height: 710px;
+	position:relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+	top: -10px;
+}
+.cbp-spmenu .menuContent h4 {
+
+	border-bottom:1px solid #e8e8e8;
+	padding-top:5px;
+	height:50px;
+}
+.cbp-spmenu  ul.modList{
+
+	list-style:none;
+	margin:0;
+	margin-top:10px;
+	margin-bottom:25px;
+}
+#cbp-spmenu-s1 ,#cbp-spmenu-s2 ,#cbp-spmenu-s3 {
+	width:337px;
+	height:680px;
+	overflow-x: hidden;
+	overflow-y:scroll;
+}
+.#cbp-spmenu-pop1{
+
+
+	position: absolute;
+	width:320px;
+	height:680px;
+	z-index:1
+}
+#cbp-spmenu-pop1{
+	background: #f2f2f2;
+}
+#cbp-spmenu-pop2{
+	background: #f2f2f2;
+}
+#cbp-spmenu-pop3{
+	background: #f2f2f2;
+}
+
+#cbp-spmenu-s1 .modList li, #cbp-spmenu-pop1 .modList li{	
+
+	width:280px;
+	height:620px;
+		margin: 0 auto;			
+	margin-top:18px;		
+	margin-bottom:20px;			
+	margin-left: -12px;	
+ 
+	list-style-image:url('http://www.trainingtelecoms.com/GLW/L1C/images/u354.png')
+}
+#cbp-spmenu-s1 .modList li.completed, #cbp-spmenu-pop1 .modList li.completed{	
+	height:auto;
+	margin: 0 auto;			
+	margin-top:18px;		
+	margin-bottom:20px;	
+	margin-left: -12px;	
+	list-style-image:url('http://www.trainingtelecoms.com/GLW/L1C/images/u350.png')
+}
+#cbp-spmenu-s2 .modList li, #cbp-spmenu-pop2 .modList li{	
+
+	width:280px;
+	height:auto;
+	margin: 0 auto;			
+	margin-top:18px;		
+	margin-bottom:20px;	
+	margin-left: -12px;		
+	list-style-image:url('http://www.trainingtelecoms.com/GLW/L1C/images/u668.png')
+}
+#cbp-spmenu-s2 .modList li.completed, #cbp-spmenu-pop2 .modList li.completed{	
+	height:auto;
+	margin: 0 auto;			
+	margin-top:18px;		
+	margin-bottom:20px;				
+	margin-left: -12px;		
+	list-style-image:url('http://www.trainingtelecoms.com/GLW/L1C/images/u648.png')
+}
+
+#cbp-spmenu-s3 .modList li, #cbp-spmenu-pop3 .modList li{	
+
+	width:280px;
+	height:auto;
+	margin: 0 auto;			
+	margin-top:18px;		
+	margin-bottom:20px;
+	margin-left: -12px;	
+	list-style-image:url('http://www.trainingtelecoms.com/GLW/L1C/images/u432.png')
+}
+#cbp-spmenu-s3 .modList li.completed, #cbp-spmenu-pop3 .modList li.completed{	
+	height:auto;
+	margin: 0 auto;			
+	margin-top:18px;		
+	margin-bottom:20px;		
+	margin-left: -12px;	
+	list-style-image:url('http://www.trainingtelecoms.com/GLW/L1C/images/u428.png')
+}
+.cbp-spmenu .modList .imgIcon{
+	float:right;
+	display: inline-block;
+	margin-right:-10px;	
+	margin-top:-5px;
+	width:25px;
+	height:25px;
+	vertical-align:top;
+	border:0;
+	position:relative;
+	cursor : pointer;
+}
+.cbp-spmenu .modList .imgIcon .imgIcon1{
+	float:right;
+}
+
+#cbp-spmenu-pop3 .modList li a {
+	width:250px;
+	height:auto;
+	color:#333333;
+	text-decoration:none;
+	text-wrap:normal;
+	position:absolute;
+	font-size:11px;
+
+}
+#cbp-spmenu-pop1 .modList li a, #cbp-spmenu-pop2 .modList li a {
+	width:250px;
+	height:auto;
+	color:#333333;
+	text-decoration:none;
+	text-wrap:normal;
+	position:absolute;
+	font-size:11px;
+}
+
+.mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity:0.7;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+.cbp-spmenu a:hover {
+	color: #47a3da;
+}
+
+.cbp-spmenu a:active {	
+	color: #47a3da;
+}
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 320px;
+	height: 700px;
+}
+.cbp-spmenu_1-vertical {
+	width: 700px;
+	height: 730px;
+    margin:0 auto;
+}
+/* .cbp-spmenu-vertical a {	
+	padding: 1em;
+} */
+
+/* Vertical menu that slides from the left or right */
+#cbp-spmenu-pop .leftMenuBtn
+{	
+	top:70px;
+}
+.cbp-spmenu-left {
+	left: 100px;
+}
+.cbp-spmenu-right {
+	right: 0px;
+}
+.cbp-spmenu_1-right {
+	
+  right: 0px;
+    margin: 0 auto;
+}
+ .buttons {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+ .toggle-push-right0 {
+	background: transparent url(http://www.trainingtelecoms.com/GLW/L1C/images/u26.png) top no-repeat;
+	outline: none;
+	width: 49px;
+	height: 51px;
+	
+}
+ .toggle-push-right1 {
+	background: transparent url(http://www.trainingtelecoms.com/GLW/L1C/images/u27.png) top no-repeat;
+	width: 49px;
+	height: 51px;
+	position:relative;
+	outline: none;
+}
+ .toggle-push-right2 {
+	background: transparent url(http://www.trainingtelecoms.com/GLW/L1C/images/u8.png) top no-repeat;
+	outline: none;
+	width: 49px;
+	height: 51px;
+}
+ .toggle-push-right3 {
+	background: transparent url(http://www.trainingtelecoms.com/GLW/L1C/images/u7.png) top no-repeat;
+	width: 49px;
+	height: 51px;
+	position:relative;
+	outline: none;
+}
+ .toggle-push-right4 {
+	background: transparent url(http://www.trainingtelecoms.com/GLW/L1C/images/u6.png) top no-repeat;	
+	width: 49px;
+	height: 51px;
+	outline: none;
+}
+ .toggle-push-right5 {
+	outline: none;
+	background: transparent url(http://www.trainingtelecoms.com/GLW/L1C/images/u5.png) top no-repeat;
+	width: 49px;
+	height: 51px;
+
+}
+ #loadMenu1 .cbp-spmenu .toggle-push-right0, #loadMenu1 .cbp-spmenu .toggle-push-right2, #loadMenu1 .cbp-spmenu .toggle-push-right4 {
+	float: left;
+	margin-top: -1px;	
+	margin-left: -49px;	
+	width: 49px;
+	height: 51px;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+
+ .buttons .toggle-push-right:focus {
+	outline: none;
+}
+
+#loadMenu1 {
+
+	float:right;
+	margin-top:0px;	
+	margin-right:0px;	
+	position:relative;
+	z-index:999;
+}
+#loadMenu {
+
+	float:right;
+	margin-top:0px;	
+	margin-right:0px;	
+	position:relative;
+	z-index:999;
+}
+#loadMenu2 {
+
+	float:right;
+	margin-top:110px;	
+	margin-right:0px;	
+	position:relative;
+	z-index:999;
+}
+#loadMenu2 .cbp-spmenu .toggle-push-right0, #loadMenu2 .cbp-spmenu .toggle-push-right2, #loadMenu2 .cbp-spmenu .toggle-push-right4 {
+	float: left;
+	margin-top: -1px;	
+	margin-left: -49px;	
+	width: 49px;
+	height: 51px;
+	padding-left: 0px;
+	padding-right: 0px;
+	
+	position:fixed;
+	
+}
+#loadMenu .cbp-spmenu .toggle-push-right0, #loadMenu .cbp-spmenu .toggle-push-right2, #loadMenu .cbp-spmenu .toggle-push-right4 
+{
+	float: left;
+	margin-top: -1px;	
+	margin-left: -49px;	
+	width: 49px;
+	height: 51px;
+	padding-left: 0px;
+	padding-right: 0px;
+	position:fixed;
+	
+}
+#maskPanel{
+	float:right;
+	right:0;
+	background-color: #e8e8e8;
+	margin-top:0px;
+	margin-right:-15px;
+    width: 500px;
+	height: 824px;
+	position:fixed;
+	z-index:1002;
+}
+/* Push classes applied to the body*/
+
+
+/* Transitions
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	
+} */
+

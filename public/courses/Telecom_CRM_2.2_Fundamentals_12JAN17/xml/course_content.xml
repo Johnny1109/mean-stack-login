@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<course>
+<titletxt>Telecom CRM 2.1 Fundamentals</titletxt>
+<courseid>https://links.lmera.ericsson.se/LZU1421049</courseid>
+<menutitle>Course Menu</menutitle>
+<menudesc><![CDATA[This course is a Technical Foundation course. Ericsson Telecom CRM 2.1 Fundamentals is a modular, scalable, high-level overview of Telecom CRM 2.1 and introduces the major areas and concepts covered by this product. <br><br>]]></menudesc>
+<quizxmlPath>xml/assessment.xml</quizxmlPath>
+<eLabs>false</eLabs>
+<elabsStudentGuide>http://www.trainingtelecoms.com/elabs_demo/Granite_EU_Exercises/eOBES_GI_9.1_End+User-eLAB_Student+Guide_v0+2.pdf</elabsStudentGuide>
+<elabsUrl>https://beta.selfpaced.training/access/login</elabsUrl>
+<assessmentAvailable>yes</assessmentAvailable>
+<showQuizMenus>disable</showQuizMenus>
+<showpagination>false</showpagination>
+<lrsmode>live</lrsmode>
+<testlrsendpoint>http://nglms.com/data/xAPI/</testlrsendpoint>
+<testlrsuname>f9c3a9471600e22bdedc2eb0eb6dcd01c39888a2</testlrsuname>
+<testlrspword>342646adfb0e7fcdbf47ae3fe45949e6831d346f</testlrspword>
+<livelrsendpoint>https://nglms.com/data/xAPI/</livelrsendpoint>
+<livelrsuname>fe5b4a35e595695787b107e081d00dfe10f2fea4</livelrsuname>
+<livelrspword>fa7d9706487446865d7e9a6c4e44431029b036d5</livelrspword>	
+<commentingsys>false</commentingsys>
+<ratingsys>false</ratingsys>
+<activeIntro>no</activeIntro>
+</course>
+<intro>
+<title>Course Introduction</title>
+<image>http://www.trainingtelecoms.com/courses/icons/46/course_intro_small.png</image>
+</intro>
+    
+<module mid="0" title="Introduction" icon="http://www.trainingtelecoms.com/courses/icons/88/video.jpg" smallicon="http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg">
+<page id="0" micon="">
+<type>video</type>
+<title>Introduction</title>
+<desc><![CDATA[This first module introduces the course and provides a general introduction to Telecom CRM 2.1.]]></desc>
+<ocontent></ocontent>
+<assethighres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module1.mp4</assethighres>
+<assetlowres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module1.mp4</assetlowres>
+</page>
+</module>
+    
+<module mid="1" title="Customer Management" icon="http://www.trainingtelecoms.com/courses/icons/88/video.jpg" smallicon="http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg">
+    <page id="1" micon="">
+    <type>video</type>
+    <title>Customer Management</title>
+    <desc><![CDATA[This module looks at a key area of Telecom CRM 2.1, customer management.]]></desc>
+    <ocontent></ocontent>
+    <assethighres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module2.mp4</assethighres>
+    <assetlowres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module2.mp4</assetlowres>
+    </page>
+</module>
+    
+<module mid="2" title="Case Management" icon="http://www.trainingtelecoms.com/courses/icons/88/video.jpg" smallicon="http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg">
+        <page id="2" micon="">
+        <type>video</type>
+        <title>Case Management</title>
+        <desc><![CDATA[In this module we look at case management, and how customer problems are recorded and resolved.]]></desc>
+        <ocontent></ocontent>
+        <assethighres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module3.mp4</assethighres>
+        <assetlowres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module3.mp4</assetlowres>
+        </page>
+</module>
+    
+<module mid="3" title="Product Offerings" icon="http://www.trainingtelecoms.com/courses/icons/88/video.jpg" smallicon="http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg">
+    <page id="3" micon="">
+    <type>video</type>
+    <title>Product Offerings</title>
+    <desc><![CDATA[In this module we look at how Telecom CRM 2.1 has its own offering catalogue and then at the product offering life-cycle and specifications.]]></desc>
+    <ocontent></ocontent>
+    <assethighres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module4.mp4</assethighres>
+    <assetlowres>>http://www.trainingtelecoms.com/courses/telecom_crm_21/module4.mp4</assetlowres>
+    </page>
+</module>
+ 
+ <module mid="4" title="Order Capture" icon="http://www.trainingtelecoms.com/courses/icons/88/video.jpg" smallicon="http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg">
+    <page id="4" micon="">
+    <type>video</type>
+    <title>Order Capture</title>
+    <desc><![CDATA[In this module we look at order capture, the types of orders and the new customer acquisition process.]]></desc>
+    <ocontent></ocontent>
+    <assethighres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module5.mp4</assethighres>
+    <assetlowres>>http://www.trainingtelecoms.com/courses/telecom_crm_21/module5.mp4</assetlowres>
+    </page>
+</module>
+
+<module mid="5" title="Business Interactions" icon="http://www.trainingtelecoms.com/courses/icons/88/video.jpg" smallicon="http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg">
+    <page id="5" micon="">
+    <type>video</type>
+    <title>Business Interactions</title>
+    <desc><![CDATA[In this module we look at business interactions, such as requests, inquiries and complaints and then how these interactions are associated to activities and notifications.]]></desc>
+    <ocontent></ocontent>
+    <assethighres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module6.mp4</assethighres>
+    <assetlowres>>http://www.trainingtelecoms.com/courses/telecom_crm_21/module6.mp4</assetlowres>
+    </page>
+</module>
+
+<module mid="6" title="Financials" icon="http://www.trainingtelecoms.com/courses/icons/88/video.jpg" smallicon="http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg">
+    <page id="6" micon="">
+    <type>video</type>
+    <title>Financials</title>
+    <desc><![CDATA[In this module we look at the different financial elements such as payments, billing and adjustments.]]></desc>
+    <ocontent></ocontent>
+    <assethighres>http://www.trainingtelecoms.com/courses/telecom_crm_21/module7.mp4</assethighres>
+    <assetlowres>>http://www.trainingtelecoms.com/courses/telecom_crm_21/module7.mp4</assetlowres>
+    </page>
+</module>
+
+
+
+ <module mid="7" title="Assessment" icon="http://www.trainingtelecoms.com/courses/icons/88/assessment.png" smallicon="http://www.trainingtelecoms.com/courses/icons/46/assessment_small.png" >
+   
+    <page id="7" micon="http://www.trainingtelecoms.com/courses/icons/46/assessment_small.png" >
+		<type>quiz</type>
+		<title>Assessment</title>
+		<desc><![CDATA[You have reached the end of the course, please try this short assessment]]></desc>
+		<ocontent></ocontent>
+		<assethighres></assethighres>
+		<assetlowres></assetlowres>
+	</page>  
+    
+</module>
+    
+<module mid="8" title="One-Minute Survey" icon="http://www.trainingtelecoms.com/courses/icons/88/survey.png" smallicon="http://www.trainingtelecoms.com/courses/icons/46/survey_small.png" >
+    <page id="8" micon="http://www.trainingtelecoms.com/courses/icons/46/survey_small.png" >
+        <type>survey</type>
+        <title>One-Minute Survey</title>
+        <desc><![CDATA[Please respond to the following 6 statements to help us improve this course.]]></desc>
+        <ocontent></ocontent>
+        <assethighres></assethighres>
+        <assetlowres></assetlowres>
+    </page>
+</module>
+
+
+</content>

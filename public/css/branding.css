@@ -1,0 +1,192 @@
+/*Branding CSS*/
+	 body {
+		padding:0;
+		background-color:#fff;
+	}
+	
+	p.copyright{
+		font-family:Arial;
+		font-size:12px;
+		
+		
+	}
+	.alert p{
+		padding-top:5px;
+		font-family:Arial;
+		font-size:14px;
+	}
+	.btn-link{
+		font-family:Arial;
+		font-size:14px;
+		
+		
+	}
+	.navbar-text{
+		font-family:Arial;
+		font-size:14px;
+		
+	}
+	.container .navbar-default{
+		
+		background-color:#f8f8f8;
+	}
+	.modal{
+		
+		left:25%;
+		right:25%;
+	}
+	.navbar-nav{
+		
+		margin-top:10px;
+		margin-right:10px;
+	}
+	.nav > li.loggeduser {
+		
+		display:inline-block;
+	}
+	.footer-wrapper  {
+		height:50px;
+		
+		background-color:#f8f8f8;
+	}
+	
+	#grad1 {
+		height: 3px;
+		background: -webkit-linear-gradient(left,rgba(161, 197, 23, 1), rgba(0, 144, 69, 1),rgba(0, 130, 182, 1),rgba(21, 31, 119, 1),rgba(219, 0, 79, 1)); /*Safari 5.1-6*/
+		background: -o-linear-gradient(right,rgba(161, 197, 23, 1), rgba(0, 144, 69, 1),rgba(0, 130, 182, 1),rgba(21, 31, 119, 1),rgba(219, 0, 79, 1)); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(right,rgba(161, 197, 23, 1), rgba(0, 144, 69, 1),rgba(0, 130, 182, 1),rgba(21, 31, 119, 1),rgba(219, 0, 79, 1)); /*Fx 3.6-15*/
+		background: -ms-linear-gradient(right,rgba(161, 197, 23, 1), rgba(0, 144, 69, 1),rgba(0, 130, 182, 1),rgba(21, 31, 119, 1),rgba(219, 0, 79, 1)); /*IE 3.6-15*/
+		background: filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b9ed', endColorstr='#f9fdff',GradientType=0 ); /* IE6-9 */
+		background: linear-gradient(to right, rgba(161, 197, 23, 1), rgba(0, 144, 69, 1),rgba(0, 130, 182, 1),rgba(21, 31, 119, 1),rgba(219, 0, 79, 1)); /*Standard*/
+	}
+
+
+/* Default */
+@media (min-width: 980px) {
+	h3.logintitle{
+		margin-left:0px;
+		
+	}
+	.navbar {
+		background-color:#f8f8f8;
+        border-bottom: 1px solid #cccccc;
+        border-right: none;
+        border-left: none;
+    }
+	.footer-wrapper  {
+		height:50px;
+		background-color:#f8f8f8;
+	}
+	.footer-logo {
+		
+		margin-top: 10px;
+	}
+	.footer-wrapper #owner{
+		margin-top: 20px;
+		color: #898989;
+		float:right;
+		font-family:Arial;
+		font-size:12px;
+	}
+	.footer-wrapper #terms {
+		font-family:Arial;
+		margin-top: 20px;
+		color: #898989;
+		float:right;
+		font-size:12px;
+	   
+	}  
+    .nav > li{
+		margin-right:5px;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+   
+   h3.logintitle{
+		margin-left:30px;
+		
+	}
+	 .footer-wrapper #owner {
+		 
+		margin-top: 0px;
+		margin-left: 70px;
+		color: #898989;
+	  font-family:Arial;
+		font-size:12px;
+	}
+	.footer-wrapper #terms {
+		margin-top: -10px;
+		color: #898989;
+		float:right;
+	   font-family:Arial;
+		font-size:12px;
+	}
+
+
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px){
+	
+	h3.logintitle{
+			margin-left:30px;
+			
+	}
+   
+   .footer-wrapper  {
+		height:50px;
+		background-color:#f8f8f8;
+	}
+	
+.footer-wrapper #owner{
+		margin-top: 10px;
+		color: #898989;
+		
+   font-family:Arial;
+		font-size:12px;
+}
+	.footer-wrapper #terms {
+		
+		height:20px;
+		
+		color: #898989;
+		font-family:Arial;
+		font-size:12px;
+	}
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 479px) {
+    h3.logintitle{
+		margin-left:10px;
+		
+	}
+.footer-wrapper  {
+		height:50px;
+		background-color:#f8f8f8;
+	}
+.footer-wrapper #owner{
+		margin-top: 10px;
+		width:100%;
+	text-align:center;
+		color: #898989;
+		  font-family:Arial;
+		font-size:12px;
+   
+}
+
+.footer-wrapper #terms {
+	
+	margin-top:10px;
+	text-align:center;
+	color: #898989;
+	  font-family:Arial;
+		font-size:12px;
+}
+
+}
+

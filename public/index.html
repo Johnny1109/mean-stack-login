@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html ng-app="newnglms">
+<head>
+  <title>New NGLMS</title>
+
+		<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/branding.css" />
+        <link rel="stylesheet" href="css/videoplayer.css" />
+		<link rel="stylesheet" href="css/pe-icon-7-stroke.css" />
+		
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/glyphicons.css" />
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <link rel="stylesheet" href="css/font-awesome-ie7.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready(function () {
+    $('#myTable').DataTable();
+});
+  
+  </script>
+</head>
+<body>
+
+  <mh-navigation></mh-navigation>
+  <div class="container">
+    <div ng-view style="margin-left:0px;margin-bottom:80px;"></div>
+  </div>
+
+<footer id="footer" style="position: fixed;
+    right: 0;
+    left: 0;
+	bottom:0;
+    z-index: 1030;">
+             <div id="grad1"></div>
+            <div class="footer-wrapper">
+                <div class="container" >
+                    <div class="row show-grid">
+                        <div class="span13">
+                            <div class="row show-grid">
+<!-- FOOTER: LOGO -->
+                                <div class="span4 footer-left1">
+                                    <img alt="logo" title="Ericsson" class="footer-logo" src="images/logoicon_small.jpg" />
+<!-- FOOTER: ADDRESS --> 			<p id="owner"><span style="color:#000;">Manager :</span> <a href="mailto:mark.xx.gibson@ericsson.com">Mark Gibson</a> | <span style="color:#000;">Contact :</span> Support</a></p>
+                                  
+                                </div>
+<!-- FOOTER: ABOUT US -->
+                              
+<!-- FOOTER: NAVIGATION LINKS -->
+                                <div class="span4 footer-right" >
+                                     <p id="terms">Privacy (Cookies) | Terms of Use</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </footer>	
+		
+
+
+  <script src="jquery/jquery-2.1.4.min.js"></script>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-route/angular-route.js"></script>
+  <script src="node_modules/angular-jwt/dist/angular-jwt.js"></script>
+  <script src="angular-app/app.js"></script>
+  
+  <script src="angular-app/course-list/course-list-controller.js"></script>
+  <script src="angular-app/course-display/course-display-controller.js"></script>
+  <script src="angular-app/course-data-factory/course-data-factory.js"></script>
+  <script src="angular-app/user-data-factory/user-data-factory.js"></script>
+  <script src="angular-app/group-data-factory/group-data-factory.js"></script>
+  <script src="angular-app/course-rating/course-rating-directive.js"></script>
+  <script src="angular-app/register/register-controller.js"></script>
+  <script src="angular-app/navigation-directive/navigation-directive.js"></script>
+  <script src="angular-app/login/login-controller.js"></script>
+  <script src="angular-app/admin/admin-controller.js"></script>
+  <script src="angular-app/auth/auth-factory.js"></script>
+  <script src="angular-app/auth/auth-interceptor.js"></script>
+<script>
+
+	$('#launchbtn').on('click', function(e) {
+		
+		//e.preventDefault();
+		alert("clicked");
+		var url = $(this).attr('href');
+		$(".modal-body").html('<iframe width="100%" height="100%" frameborder="0" scrolling="no" allowtransparency="true" src="'+url+'"></iframe>');
+	});
+	
+	$(document).ready(function () {
+    $('#myTable').DataTable();
+});
+	
+</script>
+  
+</body>
+</html>

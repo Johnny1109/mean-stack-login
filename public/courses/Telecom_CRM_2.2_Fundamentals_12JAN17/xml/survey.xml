@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<settings>
+		<type>settings</type> <!--type is reference to know which node it represents  -->
+		<questxt>gary.bolton@ericsson.com</questxt>
+		<totalQues>6</totalQues> <!--total is total number of questions in the xml  -->
+	</settings>
+    
+    <!-- Survey Questions starts here-->
+	
+    <question>
+		
+       <questxt><![CDATA[I believe the skills and knowledge acquired in this eLearning will enable me to perform my job more efficiently and effectively.]]> </questxt>
+       <questxt><![CDATA[I will recommend this eLearning to others.]]></questxt>
+       <questxt><![CDATA[I am satisfied with the eLearning as a whole.]]></questxt>
+       <questxt><![CDATA[The course was engaging.]]></questxt>
+       <questxt><![CDATA[The course content was relevant.]]></questxt>
+       <questxt><![CDATA[The content was arranged in a clear and logical way.]]></questxt>
+        
+	</question>
+    
+    <choices>
+          <choice>Strongly Disagree</choice>
+          <choice>Disagree</choice>
+          <choice>Neutral</choice>
+          <choice>Agree</choice>
+          <choice>Strongly Agree</choice>
+    </choices>
+	
+	
+ 
+
+	
+</questions>

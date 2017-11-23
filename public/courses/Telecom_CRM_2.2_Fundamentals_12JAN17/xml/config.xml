@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <configversion>0.1</configversion>
+	<copywrite show="true">        
+		<text>Ericsson Academy OSS BSS Education - v1.0</text>
+		<email>oss.bss.education@ericsson.com</email>
+	</copywrite>
+    
+	<settings>
+		<scorm>true</scorm>
+		<xAPI>true</xAPI>
+     </settings>	
+    
+    <buttons>        
+		<tickicon>http://www.trainingtelecoms.com/courses/images/u52.png</tickicon>
+		<bandwidth>false</bandwidth>
+		<dmmenuicon>http://www.trainingtelecoms.com/courses/icons/46/course_menu_small.png</dmmenuicon>
+		<launchbtn>http://www.trainingtelecoms.com/courses/images/launcheLabs.png</launchbtn>
+		<launchbtnro>http://www.trainingtelecoms.com/courses/images/launcheLabs1.png</launchbtnro>
+		<faqbtn>http://www.trainingtelecoms.com/courses/images/faq.png</faqbtn>
+		<faqbtnro>http://www.trainingtelecoms.com/courses/images/faq1.png</faqbtnro>
+		<menuicon>http://www.trainingtelecoms.com/courses/images/coursemenu_1.png</menuicon>
+		<menuiconro>http://www.trainingtelecoms.com/courses/images/coursemenu_2.png</menuiconro>
+		<backbtn>http://www.trainingtelecoms.com/courses/images/u9_b.png</backbtn>
+		<backbtnro>http://www.trainingtelecoms.com/courses/images/u11_b.png</backbtnro>
+		<nextbtn>http://www.trainingtelecoms.com/courses/images/u46_2.png</nextbtn>
+		<nextbtnro>http://www.trainingtelecoms.com/courses/images/u48_2.png</nextbtnro>
+		<continuebtn>http://www.trainingtelecoms.com/courses/images/u9_a.png</continuebtn>
+		<continuebtnro>http://www.trainingtelecoms.com/courses/images/u11_a.png</continuebtnro>
+		<introbtn>http://www.trainingtelecoms.com/courses/images/u46_a.png</introbtn>
+		<introbtnro>http://www.trainingtelecoms.com/courses/images/u48_a.png</introbtnro>
+		<menubtn>http://www.trainingtelecoms.com/courses/images/u46_b.png</menubtn>
+		<menubtnro>http://www.trainingtelecoms.com/courses/images/u48_b.png</menubtnro>
+        
+        
+		<menuicons>http://www.trainingtelecoms.com/courses/images/coursemenu_s1.png</menuicons>
+		<menuiconsro>http://www.trainingtelecoms.com/courses/images/coursemenu_s2.png</menuiconsro>	
+		<notviewed>http://www.trainingtelecoms.com/courses/images/u80.png</notviewed>  
+		<completeicon>http://www.trainingtelecoms.com/courses/images/u70.png</completeicon>  
+		<pdficon>http://www.trainingtelecoms.com/courses/images/u244.png</pdficon>  
+		<linkicon>http://www.trainingtelecoms.com/courses/images/u72.png</linkicon>  
+		<menutitlebg>http://www.trainingtelecoms.com/courses/images/u60.png</menutitlebg>  
+		<lastIcon>http://www.trainingtelecoms.com/courses/images/u80.png</lastIcon>  
+		<videoicon>http://www.trainingtelecoms.com/courses/icons/46/video_small.jpg</videoicon>	
+        
+        
+	</buttons>
+	
+	<cimages>
+		<logoiconimage>http://www.trainingtelecoms.com/courses/images/u195.png</logoiconimage>	
+		<headerbarimage>http://www.trainingtelecoms.com/courses/images/u193.png</headerbarimage>
+		<footerbarimage>http://www.trainingtelecoms.com/courses/images/u204.png</footerbarimage>		
+	</cimages>
+</config>

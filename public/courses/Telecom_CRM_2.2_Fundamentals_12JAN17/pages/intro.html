@@ -1,0 +1,111 @@
+<div>
+	<div class="row" ng-style="{'background-image':'url({{headerbarimage}})'}">
+		<div class="six columns">			
+			<div class="c_title" ng-style="{'background-image':'url({{logoiconimage}})'}"><h5 id="titleTxt">{{ title }}</h5></div>
+		</div>
+		<div id="intromessage" class="six columns" style="float: right;" ng-controller="introController" >			
+			
+		</div>
+		
+		
+	</div>
+	<div class="row">
+		<div class="twelve columns" style="width:100%;" ng-controller="configController">			
+			<div class="c_head"><h6>{{ heading }}</h6></div>	
+			<a class="continue" href="#menu" style="float:right; padding-top:0px; width:86px;height:26px" ng-init="showFirst = true" ng-mouseover="showFirst = false" ng-mouseout="showFirst = true"> 
+            <img ng-src="{{continuebtn}}" ng-show="showFirst" />
+            <img ng-src="{{continuebtnro}}" ng-hide="showFirst" />
+            
+            </a>	
+							
+				</div>
+		</div>		
+	</div>
+	<div class="row">
+		<div class="twelve columns">			
+				<div class="description">
+				<div class="t_head">Description</div>
+					<p>This course is a Technical Foundation course. Ericsson Telecom CRM 2.1 Fundamentals is a modular, scalable, high-level overview of Telecom CRM 2.1 and introduces the major areas and concepts covered by the product. This technical introduction e-Learning focuses on basic understanding of the system.  <br><br>
+					
+					 
+					</p>
+				</div>
+				<div class="description">
+					<div class="t_head">Learning Objectives</div>
+					<p>On completion of this course the participants will be able to:<br></p>
+					<ul class="ulist disc">
+						<li>Explain the key features of the Telecom CRM 2.1 architecture</li>					
+						<li>Explain the functional scope of Telecom CRM 2.1</li>					
+						<li>Understand the key functionalities such as case management, 360° view, catalog and product offerings, etc.<br></li>
+										
+											
+					</ul>				
+					
+				</div>
+			
+			
+			
+				<div class="description">
+					<div class="t_head">Target Audience</div>
+					<p>The target audience for this course is:<br></p>
+					<ul class="ulist disc">
+					
+						<li>Engagement Practice</li>					
+						<li>Solution Architects</li>					
+						<li>Integration Engineers</li>					
+						<li>Service Delivery</li>					
+						<li>Software Developers</li>					
+						<li>Support Engineers<br></li>					
+											
+					</ul>				
+					
+				</div>
+				
+				<div class="description">
+				  <div class="t_head">Prerequisites</div>
+					
+					<p>Successful completion of the OSS BSS Education Business Foundation eLearning courses.</p>
+				</div>
+				
+				<div class="description">
+					<div class="t_head">Topics in the course</div>
+					<ul class="ulist disc">
+
+						<li>Introduction</li>
+						<li>Customer Management</li>
+						<li>Case Management</li>
+						<li>Product Offerings</li>
+						<li>Order Capture</li>
+						<li>Business Interactions</li>
+						<li>Financials<br></li>
+						
+					</ul>				
+					
+				</div>
+				
+				<div class="description">
+					<div class="t_head">Course Duration </div>
+					<p>The duration of this e-Learning course is 70 minutes.</p>
+				</div>
+				
+				<div class="description">
+					<div class="t_head">Learning Situation</div>
+					<p>This web-based learning course contains content that introduces complex telecoms topics in an engaging way, using presentations and/or videos to enhance the learning experience.</p>
+				</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">			
+			<p class="newtovideotxt1" align="right" style="color:#0066b5; margin-top: 6px;"><a href="#" ng-bind-html="newtocourse"></a></p>		
+		</div>
+	</div>
+	
+	<div class="row" style="padding-top:25px;">
+		<img ng-src="{{footerbarimage}}" align='top' width=100% height=3px/>		
+	</div>
+	<div class="row" style="">
+		<div class="twelve columns">
+		<p id="copyright">{{copywriteText}}</p>
+		</div>
+	</div>
+</div>

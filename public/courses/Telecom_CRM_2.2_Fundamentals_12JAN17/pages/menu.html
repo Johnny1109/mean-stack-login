@@ -1,0 +1,65 @@
+<div>
+	<div class="row" ng-style="{'background-image':'url({{headerbarimage}})'}">
+		<div class="six columns">			
+			<div class="c_title" ng-style="{'background-image':'url({{logoiconimage}})'}"><h5 id="titleTxt">{{ title }}</h5></div>
+		</div>
+		<div id="intromessage" class="six columns" style="float: right;" ng-controller="introController" >			
+			
+		</div>
+		
+		
+	</div>
+	<div class="row">
+		<div class="twelve columns" style="width:100%;" >			
+			
+		 <a href="#intro" class="intro" ng-init="showFirst = true" ng-mouseover="showFirst = false" ng-mouseout="showFirst = true"> 
+            <img ng-src="{{introbtn}}" ng-show="showFirst" />
+            <img ng-src="{{introbtnro}}" ng-hide="showFirst" />
+            
+            </a>
+			<div class='navbar' ><span class="imgIcon"></span></a></div>	
+		</div>		
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+			<h6 class="c_heading">{{ menuTitle }}</h6>
+			<p id="mod_desc" style="color:#333;" ng-bind-html="menuDesc"></p>
+			
+			<ul class="courselist">
+			<div class="hline"></div>
+				<li ng-repeat="modules in moduleHeading" class="{{modules.isMenuDisabled}}">	
+				
+				<div class="inner">
+					<div class="li-img">
+						<div class="imgHolder" my-background-image="{{modules.icon}}">						 
+							<div id="mod3" class="progress {{modules.tracking}}" my-background-image="{{tickIcon}}"></div>
+						</div>
+					</div>
+					<div class="li-img1">
+						<div class="imgHolder1" my-background-image="{{modules.smallicon}}" ></div>
+						<div id="mod3" class="progress {{modules.tracking}}" my-background-image="{{tickIcon}}"></div>
+					</div>
+					<div class="li-text">
+						<div class="li-head csmenu">
+							<a data="{{modules.id-1}}" href="#content" ng-click="loadModuleId($event)">{{modules.title }}</a>
+						</div>
+						<p class="li-sub">{{ modules.desc }}</p>
+						<div id="mod3" class="progress {{modules.tracking}}" my-background-image="{{tickIcon}}"></div>
+					</div>
+				</div>
+				
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="row" style="padding-top:25px;">
+		<img ng-src="{{footerbarimage}}" align='top' width=100% height=3px/>		
+	</div>
+	<div class="row" style="">
+		<div class="twelve columns">
+		<p id="copyright">{{copywriteText}}</p>
+		</div>
+	</div>
+</div>

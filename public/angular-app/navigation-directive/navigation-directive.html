@@ -1,0 +1,37 @@
+<nav ng-controller="LoginController as vm" class="navbar navbar-default navbar-fixed-top" ng-init="vm.init()">
+ <div class="container">
+   <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+     <a class="navbar-brand" href="#/"><img src="images/ericsson/nglms_txt1.png"/></a>
+   </div>
+   <div id="navbar" class="collapse navbar-collapse">
+     <ul class="nav navbar-nav">
+      
+       <li ng-class="vm.isActiveTab('courses')" ng-if="vm.isLoggedIn()"><a href="#/courses">COURSES</a></li>
+      <li ng-class="vm.isActiveTab('admin')" ng-if="vm.isLoggedIn()"><a href="#/admin">ADMIN</a></li>
+      
+       <!-- <li ng-class="vm.isActiveTab('profile')" ng-if="vm.isLoggedIn()"><a href="#/profile">Profile</a></li> -->
+     </ul>
+    <!--  <form ng-if="!vm.isLoggedIn()" class="navbar-form navbar-right" role="login" ng-submit="vm.login()">
+      <div class="form-group" ng-class="{'has-error': vm.error}">
+        <input type="text" class="form-control input-sm" placeholder="Email" ng-model="vm.email" autocapitalize="none">
+      </div>
+      <div class="form-group" ng-class="{'has-error': vm.error}">
+        <input type="password" class="form-control input-sm" placeholder="Password" ng-model="vm.password" autocapitalize="none">
+      </div>
+      <button type="submit" class="btn btn-sm btn-success">Login</button>
+    </form> -->
+    <div ng-if="vm.isLoggedIn()" class="nav navbar-nav navbar-right" >
+	
+      <div style="width:100%;position:relative;display:inline;float:left;"><div style="margin-top:10px; font-family:Arial; font-size:13px;" >Welcome <i>{{vm.loggedInUser}}</i>  <span style="margin-left:10px;" >
+	  <button class="btn btn-primary" ng-click="vm.logout()">Logout</button></span></div></li>
+      
+    </div>
+   </div>
+ </div>
+</nav>

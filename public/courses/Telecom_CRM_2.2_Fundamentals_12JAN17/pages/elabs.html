@@ -1,0 +1,103 @@
+<div>
+	<div class="row" ng-style="{'background-image':'url({{headerbarimage}})'}">
+		<div class="six columns">			
+			<div class="c_title" ng-style="{'background-image':'url({{logoiconimage}})'}"><h5 id="titleTxt">{{ title }}</h5></div>
+		</div>
+		<div id="intromessage" class="six columns" style="float: right;" ng-controller="introController" >			
+			
+		</div>
+		
+		
+	</div>
+	<div class="row">
+		<div class="twelve columns" style="width:100%;" ng-controller="configController">			
+			<div class="c_head"><h6>{{ heading }}</h6></div>	
+		<!--
+			<a class="continue" href="#menu" style="float:right; padding-top:0px; width:86px;height:26px" ng-init="showFirst = true" ng-mouseover="showFirst = false" ng-mouseout="showFirst = true"> 
+            <img ng-src="{{continuebtn}}" ng-show="showFirst" />
+            <img ng-src="{{continuebtnro}}" ng-hide="showFirst" />
+            
+            </a>	
+				-->			
+				</div>
+		</div>		
+	</div>
+	<div class="row">
+		<div  ng-controller="introController" style="width=100%; margin-top:45px;">	
+			<div id="contentContainer">		
+				<div id="wrapper" ng-style="{'-webkit-transform': mystyle, '-ms-transform': mystyle, transform: mystyle}">
+					<div id="itemOne" class="contentWrapper">
+							<span class="introSlideHeading">Instructions</span><br><br>
+							<span> To complete this Ericsson eLabs course you will need to:</span>
+							<div style="width: 80%; height: 200px;  margin: auto; padding: 25px;">
+								<div style="float:left; width:45%; overflow:hidden;"><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/u42.jpg" width="140px" height="140px"/><div style="font-weight: 700; width:140px;text-align:center;padding-top:10px;">1. View each video</div></div>
+								<div style="float:left;width:45%;overflow:hidden;"><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/u44.jpg" width="140px" height="140px"/><div style="font-weight: 700; width:140px;text-align:center;padding-top:10px;">2. Successfully complete each eLabs exercise</div></div>
+								<div style="float:left;width:10%;padding-top:50px;">
+								<a ng-click="moveNext()" style="cursor: pointer; display: table;"><span style="display: table-cell; vertical-align: middle;">{{nextBtnTxt}}</span><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/next_large.png" width="26px" height="42px"/></a>
+								</div>
+							</div>
+					</div>
+					<div id="itemTwo" class="contentWrapper">
+							<span class="introSlideHeading">Launch your eLabs Environment</span><br><br>
+							<span>The ReadyTech eLabs Environment is the place to perform all of the exercises. </span><br><span style="color: red;">Launch your eLabs Environment now:</span>
+							<div style="width: 80%; height: 200px;  margin: auto; padding: 25px;">
+								<div style="float:left; width:90%; overflow:hidden; padding-left:100px;"><a href="https://beta.selfpaced.training" target="_blank"><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/ReadyTech.png" class="ahrefimage"/></a><div style="font-weight: 700; width:140px;text-align:center;padding-top:10px;"><a href="https://beta.selfpaced.training" target="_blank" class="ahreflink"><span style="display: table-cell; vertical-align: middle;">Launch the eLABS Environment</span></a></div></div>
+								
+								<div style="float:left;width:10%;padding-top:40px;">
+								<a ng-click="moveNext()" style="cursor: pointer; display: table;"><span style="display: table-cell; vertical-align: middle;">{{nextBtnTxt}}</span><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/next_large.png" width="26px" height="42px"/></a>
+								</div>
+							</div>
+					</div>
+					<div id="itemThree" class="contentWrapper">
+							<span class="introSlideHeading">Stuck or Experiencing Problems?</span><br><br>
+							<span>If you are stuck or experience problems please refer to our FAQ, <br>or contact your trainer directly using the Chat Box (these will appear when you enter the course).
+ </span>
+							<div style="width: 80%; height: 200px;  margin: auto; padding-top: 25px; padding-right: 25px; padding-bottom: 25px;">
+								<div style="float:left; width:90%; overflow:hidden; padding-left:0px;"><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/olark.png" width="358px" height="171px"/></div>
+								<div style="float:left;width:10%;padding-top:40px;">
+								<a ng-click="moveNext()" style="cursor: pointer; display: table;"><span style="display: table-cell; vertical-align: middle;">{{nextBtnTxt}}</span><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/next_large.png" width="26px" height="42px"/></a>
+								</div>
+							</div>
+					</div>
+					<div id="itemFour" class="contentWrapper">
+							<span class="introSlideHeading">Course Menu</span><br><br>
+							<span>Finally, use the Course Menu to navigate and track your progress.</span>
+							<div style="width: 90%; height: 200px;  margin: auto; padding-top: 25px; padding-right: 52px; padding-bottom: 25px;">
+								<div style="float:left; width:90%; overflow:hidden; padding-left:0px;"><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/menu_intro.png" width="432px" height="224px"/></div>
+								<div style="float:left;width:10%;padding-top:50px;">
+								<a ng-click="moveNext()" href="#{{linkVar}}" style="cursor: pointer; display: table;"><span style="display: table-cell; vertical-align: middle;">{{nextBtnTxt}}</span><img ng-src="http://www.trainingtelecoms.com/GLW/L1C/images/next_large.png" width="26px" height="42px"/></a>
+								</div>
+							</div>
+					</div>
+				</div>
+				
+			</div>
+			
+
+			
+			<div id="navLinks">
+				<div style="float:left; width:33%; overflow:hidden; padding-left:0px;">&nbsp;</div>			
+				<div style="float:left; width:34%; overflow:hidden; padding-left:0px;"><ul>
+					<li ng-repeat="list in intro" class="itemLinks {{list.active}}" ng-click="setClickedItem(list.id)" data-pos="{{list.pos}}px"></li>
+				</ul></div>
+				<div style="float:right;width:33%;padding-top:18px; padding-left:9px;">
+					<a ng-click="moveNext()" href="#{{linkVar}}" class="ahreflink"><span style="display: table-cell; vertical-align: middle;">I know all this, Skip to the content!</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">			
+			<p class="newtovideotxt1" align="right" style="color:#0066b5; margin-top: 6px;"><a href="#" ng-bind-html="newtocourse"></a></p>		
+		</div>
+	</div>
+	
+	<div class="row" style="padding-top:25px;">
+		<img ng-src="{{footerbarimage}}" align='top' width="100%" height="3px"/>		
+	</div>
+	<div class="row" style="">
+		<div class="twelve columns">
+		<p id="copyright">{{copywriteText}}</p>
+		</div>
+	</div>
+</div>

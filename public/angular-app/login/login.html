@@ -1,0 +1,26 @@
+
+
+<div class="form-container" ng-controller="LoginController as vm" style="margin-top:100px;" ng-init="vm.init()">
+    <h3 ng-if="!vm.isLoggedIn()"  class="logintitle" ><b>Login</b></h3>
+   
+   <form ng-if="!vm.isLoggedIn()" role="login" ng-submit="vm.login()" style="width:300px; margin:0px auto;">
+        <div class="form-group" ng-class="{'has-error': vm.error}">
+            <label for="username">Email</label>
+			<div class="input-group">
+				<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span> 
+				<input type="text" class="form-control input-sm" placeholder="Email" ng-model="vm.email" autocapitalize="none">
+			</div>
+        </div>
+         <div class="form-group" ng-class="{'has-error': vm.error}">
+            <label for="password">Password</label>
+            <div class="input-group">
+				<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+				<input type="password" class="form-control input-sm" placeholder="Password" ng-model="vm.password" autocapitalize="none">
+			</div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Login</button>
+            <a href="#/register" class="btn btn-link">Register</a>
+        </div>
+    </form>
+</div>

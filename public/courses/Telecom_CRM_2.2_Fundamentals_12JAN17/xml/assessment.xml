@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<settings>
+<type>settings</type>
+<questxt>gary.bolton@ericsson.com</questxt>
+<ques>20</ques>
+<activeFeedback>no</activeFeedback>
+<total>20</total>
+</settings>
+ <question id="1">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the background to Telecom CRM  2.1?]]></questxt>
+<ans>Telecom CRM is the result of a partnership between Ericsson and Microsoft.</ans>
+<choices>
+<choice cid="1">Telecom CRM is the result of a partnership between Ericsson and Microsoft.</choice>
+<choice cid="2">Telecom CRM is one of many products produced jointly by Ericsson and Microsoft.</choice>
+<choice cid="3">Telecom CRM was developed by Ericsson from scratch.</choice>
+<choice cid="4">None of the above.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="2">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about Telecom CRM 2.1?]]></questxt>
+<ans>Telecom CRM 2.1 is based on Dynamics 2016.</ans>
+<choices>
+<choice cid="1">Telecom CRM 2.1 is based on Dynamics 2013.</choice>
+<choice cid="2">Telecom CRM is the result of the analysis of business processes from many verticals.</choice>
+<choice cid="3">Telecom CRM 2.1 is based on Dynamics 2016.</choice>
+<choice cid="4">None of the above.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="3">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about Telecom CRM 2.1?]]></questxt>
+<ans>Telecom CRM 2.1 provides an offering catalogue.</ans>
+<choices>
+<choice cid="1">Telecom CRM 2.1 comes with full dealer management.</choice>
+<choice cid="2">Telecom CRM 2.1 provides an offering catalogue.</choice>
+<choice cid="3">Telecom CRM 2.02 comes pre-integrated with BSCS and Ericsson Order Care.</choice>
+<choice cid="4">None of the above.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="4">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about Telecom CRM 2.1?]]></questxt>
+<ans>Large account support was introduced by Ericsson.</ans>
+<choices>
+<choice cid="1">Telecom CRM 2.1 was developed based on the three core pillars of Dynamics Marketing, Sales and Financials.</choice>
+<choice cid="2">The concept of business processes was introduced by Ericsson.</choice>
+<choice cid="3">Campaign planning and budgeting are features  introduced by Ericsson.</choice>
+<choice cid="4">Large account support was introduced by Ericsson.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="5">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the customer lifecycle in Telecom CRM?]]></questxt>
+<ans>None of the above.</ans>
+<choices>
+<choice cid="1">Deactivated customers can be reactivated by reactivating one of their subscriptions.</choice>
+<choice cid="2">Both prospects and active customers can have subscriptions.</choice>
+<choice cid="3">Once a customer is suspended this step cannot be reversed.</choice>
+<choice cid="4">None of the above.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="6">
+<type>multiChoice</type>
+<questxt><![CDATA[According to Telecom CRM terminology which term is used to describe who should receive the bill?]]></questxt>
+<ans>Payment responsible</ans>
+<choices>
+<choice cid="1">Bill cycle</choice>
+<choice cid="2">Payment responsible</choice>
+<choice cid="3">Bill profile</choice>
+<choice cid="4">User</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="7">
+<type>multiChoice</type>
+<questxt><![CDATA[According to Telecom CRM terminology which term is used to describe a customer with several hierarchical levels?]]></questxt>
+<ans>Large account</ans>
+<choices>
+<choice cid="1">SME</choice>
+<choice cid="2">Billing account</choice>
+<choice cid="3">Individual customer</choice>
+<choice cid="4">Large account</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="8">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the order capture process in Telecom CRM?]]></questxt>
+<ans>Resources are an essential part of the process</ans>
+<choices>
+<choice cid="1">Credit scoring is an essential part of the process</choice>
+<choice cid="2">Resources are an essential part of the process</choice>
+<choice cid="3">Customer data is entered before product data</choice>
+<choice cid="4">None of the above.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="9">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about business interactions in Telecom CRM?]]></questxt>
+<ans>They refer to any interaction between CSRs and customers.</ans>
+<choices>
+<choice cid="1">They run automatically as soon as the CSR opens the customer record.</choice>
+<choice cid="2">One BI header is created per business interaction.</choice>
+<choice cid="3">They refer to any interaction between CSRs and customers.</choice>
+<choice cid="4">The CSR can trigger business interactions on several customers at the same time.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="10">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the architecture of Telecom CRM 2.1?]]></questxt>
+<ans>The CRM-SID translation layer was introduced to provide TM forum compliance.</ans>
+<choices>
+<choice cid="1">Ericsson Catalog Manager is always at the heart of product definition.</choice>
+<choice cid="2">SID is the data model used by the billing system that communicates with Telecom CRM. Therefore translation into this data format is provided by Telecom CRM.</choice>
+<choice cid="3">SOI calls are triggered between the front end and the business integration layer.</choice>
+<choice cid="4">The CRM-SID translation layer was introduced to provide TM forum compliance.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="11">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the architecture of Telecom CRM 2.1?]]></questxt>
+<ans>The business integration layer is essential for communicating with 3PP systems.</ans>
+<choices>
+<choice cid="1">Ericsson has developed new screens to support the business processes of many key verticals.</choice>
+<choice cid="2">The business integration layer was inherited from Microsoft.</choice>
+<choice cid="3">The business integration layer is essential for communicating with 3PP systems.</choice>
+<choice cid="4">None of the above.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="12">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the case management in Telecom CRM?]]></questxt>
+<ans>CSRs are guided through the process by a business process bar.</ans>
+<choices>
+<choice cid="1">All customers are treated equally by CSRs when a case or trouble ticket is opened.</choice>
+<choice cid="2">Cases always trigger an automated workflow in the background.</choice>
+<choice cid="3">A case is forwarded to ERMS once completed.</choice>
+<choice cid="4">CSRs are guided through the process by a business process bar.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="13">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the knowledge base  in Telecom CRM 2.1?]]></questxt>
+<ans>CSRs can publish articles here to help each other.</ans>
+<choices>
+<choice cid="1">This is the place where solutions to all cases are found.</choice>
+<choice cid="2">CSRs can publish articles here to help each other.</choice>
+<choice cid="3">CSRs need special permission to use the knowledge base.</choice>
+<choice cid="4">The admin user has to define what information from the knowledge base is visible to CSRs.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="14">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the product offerings  in Telecom CRM 2.1?]]></questxt>
+<ans>They use SID entities</ans>
+<choices>
+<choice cid="1">They use SID entities</choice>
+<choice cid="2">The entity submitted in the order capture process is known as the product specification.</choice>
+<choice cid="3">Product specification and product offering are used synonymously (same meaning) in Telecom CRM.</choice>
+<choice cid="4">It is impossible to close the order capture process (submit order) without selecting product specification characteristic values.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="15">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the customer search functionality in Telecom CRM?]]></questxt>
+<ans>The customer search page can include customer-specific search terms  in Telecom CRM.</ans>
+<choices>
+<choice cid="1">The customer search page is the landing page in Telecom CRM.</choice>
+<choice cid="2">The customer search page can include customer-specific search terms  in Telecom CRM.</choice>
+<choice cid="3">During configuration of Telecom CRM either simple or advanced search has to be selected as the search mode to be used by CSRs later.</choice>
+<choice cid="4">The number of hits obtained from a customer search has to be pre-defined globally for all customer records.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="16">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the retail management functionality in Telecom CRM 2.1?]]></questxt>
+<ans>Retail management is an optional add-on to Telecom CRM 2.1.</ans>
+<choices>
+<choice cid="1">Retail management is an optional add-on to Telecom CRM 2.1.</choice>
+<choice cid="2">Retail management is provided out-of-the box.</choice>
+<choice cid="3">Retail management is provided only in CBiO 3.1 mode.</choice>
+<choice cid="4">Retail management is provided only in CBiO 16 mode.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="17">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the order capture functionality in Telecom CRM 2.1?]]></questxt>
+<ans>The order capture process can involve integration with 3PP systems.</ans>
+<choices>
+<choice cid="1">The order capture process cannot be completed if the deposit displayed is not paid.</choice>
+<choice cid="2">The order cannot be submitted without clearance from the billing system.</choice>
+<choice cid="3">The order capture business process bar cannot be changed.</choice>
+<choice cid="4">The order capture process can involve integration with 3PP systems.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="18">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the billing functionality in Telecom CRM 2.1?]]></questxt>
+<ans>Payment of a bill can lead to production of a receipt by ERMS.</ans>
+<choices>
+<choice cid="1">Not all billing modes are supported in Telecom CRM.</choice>
+<choice cid="2">The CSR has to choose between either on demand or immediate billing.</choice>
+<choice cid="3">Payment of a bill can lead to production of a receipt by ERMS.</choice>
+<choice cid="4">Split billing is defined globally by the operator using Telecom CRM 2.1.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="19">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the adjustment functionality in Telecom CRM 2.1?]]></questxt>
+<ans>OCC adjustments are made during billing.</ans>
+<choices>
+<choice cid="1">The same adjustments are available for all types of subscription.</choice>
+<choice cid="2">All adjustments can be made in real-time.</choice>
+<choice cid="3">OCC adjustments are made during billing.</choice>
+<choice cid="4">Invoice adjustments are performed in BSCS.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ <question id="20">
+<type>multiChoice</type>
+<questxt><![CDATA[Which of the following statements is correct when talking about the bill dispute functionality in Telecom CRM 2.1?]]></questxt>
+<ans>A bill dispute requires the case management module.</ans>
+<choices>
+<choice cid="1">Bill disputes are opened and closed in BSCS.</choice>
+<choice cid="2">A bill dispute requires the case management module.</choice>
+<choice cid="3">A bill dispute requires a payment control in ERMS before proceeding.</choice>
+<choice cid="4">The process is initiated by BSCS, passed to Telecom CRM and closed in ERMS.</choice>
+</choices>
+<difficulty>2</difficulty>
+<feedback>INCORRECT, CORRECT</feedback>
+</question>
+ 
+<results>
+<passfeedback>Congratulations you have successfully completed this assessment and therefore also completed the course.  Please close down the course window to send your results to ITM.</passfeedback>
+<failfeedback>On this occasion you have failed to achieve the required score.  Please retake this assessment once you have reviewed the course modules again.  If you wish to leave the course and try again later then your progress will be saved once you close the course window.</failfeedback>
+</results>
+</questions>

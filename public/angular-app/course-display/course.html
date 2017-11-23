@@ -1,0 +1,210 @@
+﻿    
+	
+		<div id="over">
+		
+		<div id="out_container">
+     
+                  
+        <div class="main-content" style="margin-top:70px;">
+            <div class="container">
+                <div class="row1 show-grid">
+                  
+                    <div class="span12">                        
+                        <div class="row show-grid clear-both">
+                            <div id="left-sidebar" class="span3 sidebar">
+                                 <div class="side-nav sidebar-block">
+                                    <h4 style="color:#99cc33;">E-LEARNING</h4>
+                                    <ul>
+                                        <li><a href="#/courses">Return to Course Menu</a></li>
+                                           
+                                    </ul>
+                                </div>
+
+
+                                                               
+                            </div>
+                            
+                            <div class="span6 main-column article-border" >
+                              
+                                <article class="article">
+								
+								
+                               <div class="article-content"> 
+							    
+                               <div class="course-icon" ><img alt="" src="images/ericsson/{{vm.course.icon}}" class="img-rounded"/></div>
+                               <div class="divider-vertical">
+                               <p>
+                                 <div id="course-details" class="side-nav sidebar-block" style="padding-bottom:10px;">
+									<ul>
+								
+                                        <li class="active"><div style="font-size:13px; color:#0066b3; font-weight:bold; padding-bottom:-20px;">{{vm.course.title}}</div></li>
+                                        
+										<li class="active"><strong>{{vm.course.product}}</strong><br>{{vm.course.duration}}</li>
+                                         
+                                        <li class="active">
+                                           <div class="pull-left" style="width:80px;"> 
+												<div style="font-size:16px;color:#99cc33; width:100%;height:20px;">
+													
+													<course-rating stars="vm.stars"></course-rating>
+												</div> 
+											</div>
+											<div id="badge" class="pull-right" style="width:80px;color:#99cc33;font-family:Arial; font-size:13px; font-weight:bold;">42 reviews</div>
+										</li>
+                                    </ul>
+                                    <div style="padding-top:0px; float:right;">
+										
+										<div ng-if="vm.course.launchmode  == 'External'">
+											<div class="btn-group">
+												<a href="" class="btn btn-primary" ><span class="pe-7s-share" style="font-size:16px;"></span></a>
+												
+												<a href="#/playcourse/{{ vm.course._id }}" class="btn btn-primary"> Launch <span class="icon-caret-right" style="margin-left:10px; color:#fff; "></span> </a>
+											</div>
+										</div>
+											
+										<div ng-if="vm.course.launchmode  == 'Internal'">
+											<div class="btn-group">
+												<a href="" class="btn btn-primary" ><span class="pe-7s-share" style="font-size:16px;"></span></a>
+												
+												<a data="courses/Telecom_CRM_2.2_Fundamentals_12JAN17/index.html" role="button" class="btn btn-primary" onclick="myFunction(event);">Launch</a>
+
+												<!-- <a id="launchbtn" data-target="#myModal" role="button" class="btn btn-primary" data-toggle="modal" href="http://www.bing.com">Launch <span class="icon-caret-right" style="margin-left:10px; color:#fff; "></span> </a> -->
+											</div>
+										</div>
+  
+  
+									</div>
+									
+                               	</div>                               
+                               </p>                                
+							   </div>                             
+                              </div>                              
+  									<div class="divider" style="margin-left:0;">
+									
+									<img alt="" src="images/ericsson/hline.png" style="padding-top:10px; height:3px;">        
+                                      <h3 class="header-txt"><span class="icon-caret-down" style="margin-right:5px;  color:#0066b3; "></span>Course Overview</h3>                                   
+                          <p style="padding-top:0px; font-family: Arial;font-size:13px; color:#000;">{{vm.course.description}}</p>
+                          
+							 <ul class="overview-list">
+
+							
+									<!-- <li class="active" style="width:100%; padding-top:-5px;  color:#000;">sssfdsfdsf</li> -->
+							
+
+							</ul>
+						  <p></p>
+						<h3 class="header-txt"><span class="icon-caret-down" style="margin-right:5px;  color:#0066b3;font-family: Arial;font-size:14px; "></span>Course Prerequisites</h3>                                   
+                          <div class="content-text" style="font-family: Arial;font-size:13px;line-height:15px;margin-bottom:10px;">Student should have attend all the foundation-level Ericsson OSS BSS eLearning courses.</div>
+						  
+						   <h3 class="header-txt" ><span class="icon-caret-down" style="margin-right:5px; font-family: Arial;font-size:14px; color:#0066b3;line-height:15px; "></span>Target Audience</h3>                                   
+                          <div class="content-text" style="font-family: Arial;font-size:13px;line-height:15px;">Anyone involved in selling or supporting the sales of the Ericsson Mobile Order Management solution</div>
+			
+ <h3 class="header-txt" style="margin-top:10px; "><span class="icon-caret-down" style="margin-right:5px; font-family: Arial;font-size:14px; color:#0066b3; "></span>Course Content</h3>	
+
+	
+
+
+<ul id="acc1" class="accordion">
+							    
+            <li style="list-style:none;">
+				<h4></h4>
+				<div class="inner">
+                        
+					<ul class="play-list2"> 
+					
+						<li class="completed" style="width:100%; padding-top:-10px;"><a href="">Introduction and Market Overview</a> </li>
+						<li class="completed" style="width:100%; padding-top:-10px;"><a href="">Operator Challenges - Interview</a> </li>
+						<li class="completed" style="width:100%; padding-top:-10px;"><a href="">Solution Overview</a> </li>
+						<li class="notcompleted" style="width:100%; "><a href="">Business Benefits & Value Proposition</a> </li>
+						<li class="notcompleted" style="width:100%; "><a href="">Target Customer Profile</a> </li>
+						<li class="notcompleted" style="width:100%; "><a href="">Future Direction - Interview</a> </li>
+						<li class="notcompleted" style="width:100%; "><a href="">More Information</a> </li>
+				
+					</ul>				
+	
+                </div>
+            </li>
+                      
+            </ul> <!-- end accordion 1 -->
+
+				<div class="text-divider1"></div>
+				<h3 class="header-txt"><span class="icon-caret-down" style="margin-right:5px;  color:#0066b3; "></span>Course Supplementaries</h3> 
+				  <ul class="doc-list">
+					 
+					<li><a href="<?php echo $getPdfLink ?>" target="_blank"><span class="icon-file" style="color: #89ba17;margin-right:5px; "></span>Course PDF</a><div id="duration" class="pull-right" style="width:40px;"></div></li>
+					<li><a href="<?php echo $getePubLink ?>" target="_blank"><span class="icon-file" style="color: #89ba17;margin-right:5px; "></span>Course ePub</a><div id="duration" class="pull-right" style="width:40px;"></div></li>
+					
+				  </ul>			 
+							 
+						
+					</article>
+							
+							<p style="margin-top:20px;"></p>
+							
+						
+							</div>
+                            <div id="right-sidebar" class="span3 sidebar">
+                            
+                            <div class="side-nav sidebar-block" style="margin-left:5px;">
+                                    <h4 style="color:#99cc33;">Related Courses</h4>
+                                    <ul>
+ 
+										<li class="active"><a href="">Technical Course</a></li>
+                                    
+                                    </ul>
+                                </div>
+                            
+                              
+                                
+                               
+                            </div>
+							
+                        </div>
+							
+					
+                    </div>
+                   
+    
+                </div>
+				 
+              
+                </div>
+            </div>
+			
+
+         </div>  
+        </div>
+		
+         
+	</div>
+	<div class="modal fade hide" style="width:820px;height:580px;margin-left:-480px;"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+  <div class="modal-header">
+	<div>
+		
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		
+	</div>
+    <h3 id="myModalLabel">{{vm.course.title}}</h3>
+  </div>
+  <div class="modal-body" style="width:800px;height:100%;">
+    <p>One fine body…</p>
+  </div>
+ 
+</div>
+	
+	
+
+
+<script>
+
+function myFunction(e) {
+
+	//alert("clicked");
+	var url = e.target.getAttribute('data');
+	//alert("myfuc >> "+url);
+    //$(".modal-body").html('<iframe width="100%" height="100%" align="center" frameborder="0" scrolling="yes" allowtransparency="true" src="'+url+'"></iframe>');
+	//window.open(url,'jav','width=100%,height=640,resizable=yes');
+	window.open(url,'Telecom CRM Fundamental','toolbar=yes,scrollbars=yes,resizable=yes,width="100%",height=640');
+
+}
+
+</script>
