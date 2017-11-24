@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-var dburl = 'mongodb://johnny:test123@ec2-52-14-108-178.us-east-2.compute.amazonaws.com:27017/ctol';
+var dburl = 'mongodb://johnny:test123@ec2-13-127-45-76.ap-south-1.compute.amazonaws.com:27017/dummyDB';
 
 var _connection = null;
 
