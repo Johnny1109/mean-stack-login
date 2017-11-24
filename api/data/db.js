@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dburl = 'mongodb://johnny:test123@ec2-13-127-45-76.ap-south-1.compute.amazonaws.com:27017/dummyDB';
+var dburl = 'mongodb://johnny:test123@ec2-13-127-45-76.ap-south-1.compute.amazonaws.com:27017/ctol';
 var retry = null;
 mongoose.connect(dburl);
 
