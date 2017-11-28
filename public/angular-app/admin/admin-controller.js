@@ -29,8 +29,8 @@ function CoursesController($route, $routeParams, courseDataFactory, userDataFact
 	groupDataFactory.groupList().then(function(response) {
 		
 		
-		vm1.groups = response.data;
-		console.log("groups response : "+JSON.stringify(response.data));
+		//vm1.groups = response.data;
+		//console.log("groups response : "+JSON.stringify(response.data));
 		
 	});
 	
