@@ -2,7 +2,7 @@ angular.module('newnglms', ['ngRoute', 'angular-jwt']).config(config).run(run);
 
 function config($httpProvider, $routeProvider) {
   $httpProvider.interceptors.push('AuthInterceptor');
-
+$locationProvider.html5Mode(true);
   $routeProvider
     .when('/', {
       templateUrl: 'angular-app/login/login.html',
