@@ -7,7 +7,7 @@ var routes = require('./api/routes');
 
 var app = express();
 // Define the port to run on
-app.set('port', 8080);
+app.set('port', 8000);
 
 // Add middleware to console log every request
 app.use(function(req, res, next) {
